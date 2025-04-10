@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/app.css" />
+  </head>
+  <body>
+    <header class="bg-img test">
+      <nav class="navbar bg-transparent fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-1 text-white fw-light" href="#">Siimple</a>
+          <button
+            class="navbar-toggler border-0 text-white"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <i class="bi bi-list fs-1"></i>
+          </button>
+          <div
+            class="offcanvas offcanvas-end w-25 bg-black"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active fw-bold fs-5 hover-overlay text-white"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link fw-bold fs-5 text-white"
+                    aria-current="page"
+                    href="#"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link fw-bold fs-5 text-white"
+                    aria-current="page"
+                    href="#"
+                    >Why us</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link fw-bold fs-5 text-white"
+                    aria-current="page"
+                    href="#"
+                    >Services</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold fs-5 text-white" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-white"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu bg-black">
+                    <li>
+                      <a class="dropdown-item text-white" href="#">Action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-white" href="#"
+                        >Another action</a
+                      >
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item text-white" href="#"
+                        >Something else here</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="d-flex flex-column align-items-center title">
+        <h1>Welcome to Siimple</h1>
+        <p>We are team of talented designers making websites with Bootstrap</p>
+        <button>Get Started</button>
+      </div>
+    </header>
+    <section
+      id="About"
+      class="d-flex flex-column align-items-center aboutt gap-5"
+    >
+      <div>
+        <h1 class="text-xl-center c-tit h3-about">About Us</h1>
+        <p>
+          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+          consectetur velit
+        </p>
+      </div>
+      <div class="d-flex gap-3 des-about">
+        <div>
+          <img src="./public/images/about.jpg" alt="" width="500" class="imabout" />
+        </div>
+        <div>
+          <h3 class="c-tit">Voluptatem dignissimos provident</h3>
+          <p class="colr-gre">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div class="d-flex gap-2">
+            <i class="bi bi-check2-all i-col"></i>
+            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          <div class="d-flex gap-2">
+            <i class="bi bi-check2-all i-col"></i>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+          </div>
+          <div class="d-flex gap-2">
+            <i class="bi bi-check2-all i-col"></i>
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in reprehenderit in voluptate trideta storacalaperda
+              mastiro dolore eu fugiat nulla pariatur.
+            </p>
+          </div>
+          <p>
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore
+            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="Why-us"
+      class="d-flex flex-column align-items-center aboutt gap-5"
+    >
+      <div>
+        <h1 class="text-xl-center c-tit h3-about">Why Us</h1>
+        <p>
+          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+          consectetur velit
+        </p>
+      </div>
+      <div class="d-flex gap-3 des-about">
+        <div class="content-w d-flex flex-column align-items-center position-relative">
+          <img src="./public/images/why-us-1.jpg" alt="" width="350" />
+          <div class="hv">
+            
+            <i class="bi bi-hdd-stack bg-white icc"></i>
+            <h3 class="c-tit padtit">Our Mission</h3>
+          <p class="p-2">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure illum
+            ea cum praesentium. Voluptates eius quod eaque quis. Illum,
+            aspernatur!
+          </p>
+          </div>
+          
+        </div>
+        <div class="content-w d-flex flex-column align-items-center position-relative">
+          <img src="./public/images/why-us-2.jpg" alt="" width="350" />
+          <div class="hv">
+            
+            <i class="bi bi-brightness-high bg-white icc"></i>
+            <h3 class="c-tit padtit">Our Plan</h3>
+          <p class="p-2">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi,
+            itaque! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Aspernatur, ut.
+          </p>
+          </div>
+          
+        </div>
+        <div class="content-w d-flex flex-column align-items-center position-relative">
+          <img src="./public/images/why-us-3.jpg" alt="" width="350" />
+          <div class="hv">
+            
+            <i class="bi bi-hdd-stack bg-white icc"></i>
+            <h3 class="c-tit padtit">Our Vision</h3>
+          <p class="p-2">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
+            fuga voluptatibus repellat molestiae expedita est alias odit
+            incidunt doloribus quia.
+          </p>
+          </div class="hv">
+          
+        </div>
+      </div>
+    </section>
+   <section class=" pps">
+    <section
+    id="services"
+    class="d-flex flex-column align-items-center aboutt "
+  >
+    <div>
+      <h1 class="text-xl-center c-tit h3-about">Services</h1>
+      <p>
+        Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+      </p>
+    
+    </div>
+    <div class="servec-card">
+      <div class="d-flex flex-column align-items-start CARD gap-2 bg-white">
+        <div class="d-colr-i-serv"><i class="bi bi-activity colr-i-serv"></i></div>
+        <h3 class="c-tit">Nesciunt Mete</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aut ex distinctio nostrum accusamus id delectus in sed quo atque.</p>
+      </div>
+      <div class="d-flex flex-column align-items-start CARD gap-2 bg-white">
+        <div class="d-colr-i-serv"></div>
+        <h3 class="c-tit">Nesciunt Mete</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aut ex distinctio nostrum accusamus id delectus in sed quo atque.</p>
+      </div>
+      <div class="d-flex flex-column align-items-start CARD gap-2 bg-white">
+        <div class="d-colr-i-serv"></div>
+        <h3 class="c-tit">Nesciunt Mete</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aut ex distinctio nostrum accusamus id delectus in sed quo atque.</p>
+      </div>
+      <div class="d-flex flex-column align-items-start CARD gap-2 bg-white">
+        <div class="d-colr-i-serv"></div>
+        <h3 class="c-tit">Nesciunt Mete</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aut ex distinctio nostrum accusamus id delectus in sed quo atque.</p>
+      </div>
+      <div class="d-flex flex-column align-items-start CARD gap-2 bg-white">
+        <div class="d-colr-i-serv"></div>
+        <h3 class="c-tit">Nesciunt Mete</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aut ex distinctio nostrum accusamus id delectus in sed quo atque.</p>
+      </div>
+      <div class="d-flex flex-column align-items-start CARD gap-2 bg-white">
+        <div class="d-colr-i-serv"></div>
+        <h3 class="c-tit">Nesciunt Mete</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aut ex distinctio nostrum accusamus id delectus in sed quo atque.</p>
+      </div>
+      </div>
+  </section>
+
+   </section>
+
+   <section
+      id="Contact "
+      class="d-flex flex-column align-items-center py-5 gap-lg-5"
+    >
+      <div>
+        <h1 class="text-xl-center c-tit h3-about">Contact Us</h1>
+        <p>
+          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+        </p>
+      </div>
+      <div class="d-flex ppz ">
+        <div class="d-flex flex-column align-items-center px-4">
+          <i class="bi bi-geo-alt azz"></i>
+          <h3>Address</h3>
+          <p>A108 Adam Street, New York, NY 535022</p>
+        </div>
+        <div class="d-flex flex-column align-items-center bordeee">
+          
+          <i class="bi bi-telephone azz"></i>
+          <h3>Call Us</h3>
+          <p>+1 5589 55488 55</p>
+        </div>
+        <div class="d-flex flex-column align-items-center px-5">
+          <i class="bi bi-envelope azz"></i>
+          <h3>Address</h3>
+          <p>info@example.com</p>
+        </div>
+        
+
+      </div>
+      <form action="" class="form1 d-flex flex-column gap-3 align-items-center">
+        <div class="nam-email">
+          <input type="text" placeholder="Your Nam" >
+          <input type="text" placeholder="Your Email">
+        </div>
+        <input type="text" placeholder="Subject">
+        <textarea name="" id="" placeholder="Message"></textarea>
+        <button>Send Message</button>
+        
+      </form>
+      
+          
+    </section>
+    <section class=" sss">
+      <section
+      id="footer"
+      class="d-flex flex-column align-items-center aboutt "
+    >
+      <div>
+        <h1 class="text-xl-center c-tit h3-about">Siimple</h1>
+        <p>
+          Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.
+        </p>
+      </div>
+
+      <div class="iconss d-flex gap-3 justify-content-center">
+        <div class="cvc">
+          <i class="bi bi-twitter"></i>
+        </div>
+        <div class="cvc"><i class="bi bi-facebook"></i>
+        </div>
+        <div class="cvc"><i class="bi bi-instagram"></i>
+
+        </div>
+        <div class="cvc"><i class="bi bi-skype"></i>
+        </div>
+        <div class="cvc">  <i class="bi bi-linkedin"></i>
+        </div>
+      
+
+
+      </div>
+      <p>Copyright  <b>Siimple</b> All Rights Reserved</p>
+      <h6>Designed by BootstrapMade</h6>
+      
+        
+        
+        
+      
+    </section>
+  
+     </section>
+     <button class="scrolling " ></button>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
